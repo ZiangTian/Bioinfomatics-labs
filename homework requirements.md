@@ -12,6 +12,4 @@
 
 对于给定的预处理好的来自同一个细胞的scRNA-seq和scATAC-seq数据集(scRNA_seq_for_final.tsv, scATAC_seq_for_final.tsv , label_for_final.tsv)，即每个细胞由两个模态的特征，设计基于这两个模态，对细胞进行聚类的算法，并将聚类结果在UMAP空间可视化，以及计算与真实标签label_for_final.tsv 的聚类评价指标Adjusted rand index.
 
-
-
 要求写出算法，并提供代码和结果，不限制编程工具。(注：关于评分：ARI大小不是衡量评分的唯一指标，主要指标是算法的合理性)
